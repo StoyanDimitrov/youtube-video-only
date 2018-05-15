@@ -1,11 +1,5 @@
-# Remove Tracking Params
-It is a simple browser extension that cleans up the clicked link from some tracking URL parameters before even the request leaves your browser.
+# Youtube Video Only
 
-The URL parameters removed by the add-on are:
-<ul>
-  <li>starting with <strong>utm_</strong></li>
-  <li>starting with <strong>fb_</strong></li>
-  <li><strong>yclid</strong></li>
-</ul>
+Irrеversible opens the current video in fullscreen mode removing all site interface elements.
 
 There is no configuration.
