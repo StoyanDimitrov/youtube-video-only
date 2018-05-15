@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Youtube Video Only",
+  "version": "0.0.1",
+
+  "description": "__MSG_description__",
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+
+  "permissions": [
+    "*://*.youtube.com/watch*",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+
+  "applications": {
+    "gecko": {
+      "id": "youtube-video-only@stoyan"
+    }
+  },
+
+  "default_locale": "en"
+}
